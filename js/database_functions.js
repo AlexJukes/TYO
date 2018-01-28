@@ -1,5 +1,4 @@
 function is_logged_in(){
-	console.log('hi')
 	$.ajax({
 			url: '/tyo/php/ajax_action.php',
 			data: {action: 'is_logged_in'},
