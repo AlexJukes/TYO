@@ -22,7 +22,7 @@ $(document).ready(function(){
 					console.log('hello')
 					$("form")[0].reset();
 					$('input[type="text"],input[type="password"]').css({"border":"2px solid #00F5FF","box-shadow":"0 0 5px #00F5FF"});
-					url = 'google.com';
+					url = 'php/performers.php';
 					$(location).attr('href',url);
 				} else{
 					alert(data);

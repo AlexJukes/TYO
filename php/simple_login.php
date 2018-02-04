@@ -28,6 +28,6 @@
     $_SESSION['UserId'] = $id;
     echo 1;
   } else {
-    echo "Email or Password is wrong...!!!!";
+    echo "Username or Password is wrong!";
   }
   ?>

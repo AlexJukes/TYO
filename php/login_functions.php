@@ -3,7 +3,6 @@ require_once('ChromePhp.php');
 
 function is_logged_in(){
 	include('./var/www/tyo_config.php');
-	session_start();
 	if (isset($_SESSION["LoggedIn"]) ? $_SESSION["LoggedIn"] : 0 == 1) {
 		echo json_encode(array('success' => true,));
 	} else {

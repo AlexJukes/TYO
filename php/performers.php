@@ -54,28 +54,28 @@ include("cookie.php");
 			</button>
           <!--logo-->
           <div class="logo">
-            <a href="index.html"><img src="img/logo.png" alt="" /></a>
+            <a href="../index.html"><img src="img/logo.png" alt="" /></a>
           </div>
         </div>
         <div class="collapse navbar-collapse" id="menu">
           <ul class="nav navbar-nav pull-right">
             <li>
-              <a href="index.html">Home</a>
+              <a href="../index.html">Home</a>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000">
 								Tour
 							</a>
               <ul class="dropdown-menu">
-                <li><a href="about.html">About</a></li>
-                <li><a href="meet_orchestra.html">Meet the Orchestra</a></li>
-                <li><a href="staff.html">Meet the Staff</a></li>
-                <li><a href="tour.html">Tour</a></li>
-                <li><a href="chair.html">Sponsor a Chair</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../meet_orchestra.html">Meet the Orchestra</a></li>
+                <li><a href="../staff.html">Meet the Staff</a></li>
+                <li><a href="../tour.html">Tour</a></li>
+                <li><a href="../chair.html">Sponsor a Chair</a></li>
               </ul>
             </li>
             <li>
-              <a href="join.html">Join</a>
+              <a href="../join.html">Join</a>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000">
@@ -83,8 +83,8 @@ include("cookie.php");
 							</a>
               <ul class="dropdown-menu">
                 <li><a href="https://soundcloud.com/thamesyouthorchestra" target="blank">Audio Archive</a></li>
-                <li><a href="videos.html">Videos</a></li>
-                <li><a href="gallery.html">Photos</a></li>
+                <li><a href="../ideos.html">Videos</a></li>
+                <li><a href="../gallery.html">Photos</a></li>
               </ul>
             </li>
             <li class="dropdown">
@@ -92,12 +92,12 @@ include("cookie.php");
 								Members
 							</a>
               <ul class="dropdown-menu">
-                <li><a href="gridblog.html">Performers' Area</a></li>
-                <li><a href="gridblog2.html">Administration</a></li>
+                <li><a href="performers.php">Performers' Area</a></li>
+
               </ul>
             </li>
             <li>
-              <a href="contact.html">Contact</a>
+              <a href="../contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -117,10 +117,23 @@ include("cookie.php");
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-
-          <div class="row pad45">
-            <div class="lead">
+          <h1>
             Performers
+          </h1>
+
+            <div class="lead">
+            Current Pieces
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+             <div class"col-md-12"><h2>Stravinsky: Firebird Suite (1919)</h2></div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <img src="images/general_illustration/Stravinsky.jpg" alt="Igor">
+              </div>
             </div>
           </div>
 

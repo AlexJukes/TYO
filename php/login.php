@@ -4,14 +4,15 @@
 	include('password_hash.php');
 	include('ChromePhp.php');
 	$db = new mysqli($servername,$username,$password,$dbname);
-	$email=$_POST['email1'];
-	$password=$_POST['password1'];
+	if (isset($_POST['email1'], $_POST['password1'])) {
+		$email=$_POST['email1'];
+		$password=$_POST['password1'];
+	}
 	if (!$db->set_charset("utf8")) {
 		printf("Error loading character set utf8: %s\n", $db->error);
 	}
 
 	if ($_SESSION['LoggedIn'] == 1) {
-		echo "Logged In By Session";
 		ChromePhp::log("Logged In By Session");
 	} else {
 		if (isset($_COOKIE['authentication'], $_COOKIE['user'])) {
