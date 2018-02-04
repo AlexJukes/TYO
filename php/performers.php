@@ -64,7 +64,7 @@ include("cookie.php");
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000">
-								Tour
+								About Us
 							</a>
               <ul class="dropdown-menu">
                 <li><a href="../about.html">About</a></li>
@@ -118,7 +118,7 @@ include("cookie.php");
       <div class="row">
         <div class="col-lg-12">
           <h1>
-            Performers
+            Performers' Area
           </h1>
 
             <div class="lead">
@@ -126,165 +126,154 @@ include("cookie.php");
             </div>
           </div>
 
-          <div class="container">
-            <div class="row">
-             <div class"col-md-12"><h2>Stravinsky: Firebird Suite (1919)</h2></div>
+          <div class="container" style="text-align:center">
+            <div class="row pad45">
+             <div class"col-md-12">
+               <h2>Stravinsky: Firebird Suite (1919)</h2>
+             </div>
             </div>
-            <div class="row">
-              <div class="col-md-3">
-                <img src="images/general_illustration/Stravinsky.jpg" alt="Igor">
+            <div class="row pad30">
+              <div class="col-md-12">
+                <img src="../img/general_illustration/Stravinsky.jpg" alt="Igor">
               </div>
             </div>
-          </div>
+            <div class="row pad30">
+              <div class="col-xs-12 col-md-3">
+                <img class="section-icon" src="/tyo/img/instrument_icons/violin.png" />
+                <div class="pieces">
+                  <a href="pdfs/Firebird/Violin I.pdf" target="_blank">Violin 1</a></br>
+                  <a href="pdfs/Firebird/Violin II.pdf" target="_blank" class="style3">Violin 2</a></br>
+                  <a href="pdfs/Firebird/Viola.pdf" target="_blank" class="style3">Viola</a></br>
+                  <a href="pdfs/Firebird/Cello.pdf" target="_blank" class="style3">Cello</a></br>
+                  <a href="pdfs/Firebird/Bass.pdf" target="_blank" class="style3">Bass</a></br>
+                </div>
 
-          <table width="739" border="0" align="left" bordercolor="#000000">
-           <tr>
-             <td height="62" colspan="4" align="left" valign="middle"><h2>Stravinsky: Firebird Suite (1919)</h2></td>
-           </tr>
-           <tr>
-             <td width="105" height="62" align="left" valign="top"><img src="images/general_illustration/Stravinsky.jpg" width="104" height="130" alt="Igor"></td>
-             <td width="82" height="62" align="left" valign="top"><p align="left" class="style3"><a href="pdfs/Firebird/Violin I.pdf" target="_blank">Violin 1</a>
-   <p align="left" class="style2"><a href="pdfs/Firebird/Violin II.pdf" target="_blank" class="style3">Violin 2</a></p>
-               <p align="left" class="style2"><a href="pdfs/Firebird/Viola.pdf" target="_blank" class="style3">Viola</a></p>
-               <p class="style2"><a href="pdfs/Firebird/Cello.pdf" target="_blank" class="style3">Cello</a></p>
-             <p class="style2"><a href="pdfs/Firebird/Bass.pdf" target="_blank" class="style3">Bass</a></p>  </td>
-             <td width="95" height="62" align="left" valign="top"><p align="left"><a href="pdfs/Firebird/Flute 1.pdf" target="_blank">Flute 1</a><br>
-                 <a href="pdfs/Firebird/Flute 2.pdf" target="_blank">Flute 2</a><br>
-                 <a href="pdfs/Firebird/Oboe 1.pdf" target="_blank">Oboe 1</a><br>
-                 <a href="pdfs/Firebird/Oboe 2 + cor.pdf" target="_blank">Oboe 2/Cor</a><br>
-                 <a href="pdfs/Firebird/Clarinet 1.pdf" target="_blank">Clarinet 1</a><br>
-                 <a href="pdfs/Firebird/Clarinet 2.pdf" target="_blank">Clarinet 2</a><br>
-   <a href="pdfs/Firebird/Bassoon 1.pdf" target="_blank">Bassoon 1<br>
-                 </a><a href="pdfs/Firebird/Bassoon 2.pdf" target="_blank">Bassoon 2</a></a><br>
-                 <br>
-             <td width="439" height="62" align="left" valign="top"><p><a href="pdfs/Firebird/Horn 1.pdf" target="_blank">Horn 1<br>
-               </a><a href="pdfs/Firebird/Horn 2.pdf" target="_blank">Horn 2</a> <br>
-               <a href="pdfs/Firebird/Horn 3.pdf" target="_blank">Horn 3<br>
-               </a><a href="pdfs/Firebird/Horn 4.pdf" target="_blank">Horn 4</a> </a></p>
-               <p align="left"><a href="pdfs/Firebird/Trumpet 1.pdf" target="_blank">Trumpet 1<br>
-                 </a><a href="pdfs/Firebird/Trumpet 2.pdf" target="_blank">Trumpet 2</a><a href="pdfs/Firebird/trumpets.pdf" target="_blank"> </a><p align="left"><a href="pdfs/Firebird/Trombone 1.pdf" target="_blank">Trombone 1</a><br>
-                 <a href="pdfs/Firebird/Trombone 2.pdf" target="_blank">Trombone 2</a><br>
-                 <a href="pdfs/Firebird/Trombone 3.pdf" target="_blank">Trombone 3</a><br>
-                 <a href="pdfs/Firebird/Tuba.pdf" target="_blank">Tuba</a>
-               <p align="left"><a href="pdfs/Firebird/Harp.pdf" target="_new">Harp</a><br>
-                 <br>
-               <a href="pdfs/Firebird/Piano.pdf" target="_new">Piano</a>
-               <p align="left"><a href="pdfs/Firebird/Timps.pdf" target="_new">Timps</a><br>
-   <a href="pdfs/Firebird/Percussion.pdf" target="_blank">Percussion</a>
-               <p align="left"><br>
+              </div>
+              <div class="col-xs-12 col-md-3">
+                <img class="section-icon" src="/tyo/img/instrument_icons/flute.png" />
+                <div class="pieces">
+                  <a href="pdfs/Firebird/Flute 1.pdf" target="_blank">Flute 1</a></br>
+                  <a href="pdfs/Firebird/Flute 2.pdf" target="_blank">Flute 2</a></br>
+                  <a href="pdfs/Firebird/Oboe 1.pdf" target="_blank">Oboe 1</a></br>
+                  <a href="pdfs/Firebird/Oboe 2 + cor.pdf" target="_blank">Oboe 2/Cor</a></br>
+                  <a href="pdfs/Firebird/Clarinet 1.pdf" target="_blank">Clarinet 1</a></br>
+                  <a href="pdfs/Firebird/Clarinet 2.pdf" target="_blank">Clarinet 2</a></br>
+                  <a href="pdfs/Firebird/Bassoon 1.pdf" target="_blank">Bassoon 1</a></br>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-3">
+                <img class="section-icon" src="/tyo/img/instrument_icons/trumpet.png" />
+                <div class="pieces">
+                  <a href="pdfs/Firebird/Horn 1.pdf" target="_blank">Horn 1</a><br>
+                  <a href="pdfs/Firebird/Horn 2.pdf" target="_blank">Horn 2</a><br>
+                  <a href="pdfs/Firebird/Horn 3.pdf" target="_blank">Horn 3</a><br>
+                  <a href="pdfs/Firebird/Horn 4.pdf" target="_blank">Horn 4</a> <br>
+                  <a href="pdfs/Firebird/Trumpet 1.pdf" target="_blank">Trumpet 1</a><br>
+                  <a href="pdfs/Firebird/Trumpet 2.pdf" target="_blank">Trumpet 2</a><br>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-3">
+                <img class="section-icon" src="/tyo/img/instrument_icons/trombone.png" />
+                <div class="pieces">
+                  <a href="pdfs/Firebird/Trombone 1.pdf" target="_blank">Trombone 1</a><br>
+                  <a href="pdfs/Firebird/Trombone 2.pdf" target="_blank">Trombone 2</a><br>
+                  <a href="pdfs/Firebird/Trombone 3.pdf" target="_blank">Trombone 3</a><br>
+                  <a href="pdfs/Firebird/Tuba.pdf" target="_blank">Tuba</a><br>
+                  <a href="pdfs/Firebird/Harp.pdf" target="_new">Harp</a><br>
+                  <a href="pdfs/Firebird/Piano.pdf" target="_new">Piano</a><br>
+                  <a href="pdfs/Firebird/Timps.pdf" target="_new">Timps</a><br>
+                  <a href="pdfs/Firebird/Percussion.pdf" target="_blank">Percussion</a><br>
+                </div>
 
-   </td>
-           </tr>
-           <tr>
-             <td height="62" colspan="4" align="left" valign="middle"><h2>Kodaly: Hary Janos Suite</h2></td>
-           </tr>
-           <tr>
-             <td height="62" align="left" valign="top"><img src="images/general_illustration/Kodaly.jpg" width="104" height="114" alt="Kodaly"></td>
-             <td height="62" align="left" valign="top"><p align="left" class="style3"><a href="pdfs/Hary/violin 1.pdf" target="_blank">Violin 1</a> </p>
-               <p align="left" class="style2"><a href="pdfs/Hary/violin 2.pdf" target="_blank" class="style3">Violin 2</a></p>
-               <p align="left" class="style2"><a href="pdfs/Hary/viola.pdf" target="_blank" class="style3">Viola</a></p>
-               <p class="style2"><a href="pdfs/Hary/cello.pdf" target="_blank" class="style3">Cello</a></p>
-             <p class="style2"><a href="pdfs/Hary/bass.pdf" target="_blank" class="style3">Bass</a></p></td>
-             <td height="62" align="left" valign="top"><a href="pdfs/Hary/flute 1.pdf" target="_blank">Flute 1</a><br>
-               <a href="pdfs/Hary/flute 2.pdf" target="_blank">Flute 2</a><br>
-               <a href="pdfs/Hary/flute 3.pdf" target="_blank">Flute 3</a><br>
-               <a href="pdfs/Hary/oboe 1.pdf" target="_blank">Oboe 1</a><br>
-               <a href="pdfs/Hary/oboe 2.pdf" target="_blank">Oboe 2</a><br>
-               <a href="pdfs/Hary/clarinet 1.pdf" target="_blank">Clarinet 1</a><br>
-               <a href="pdfs/Hary/clarinet 2.pdf" target="_blank">Clarinet 2</a><br>
-               <a href="pdfs/Hary/bassoon 1.pdf" target="_blank">Bassoon 1<br>
-               </a><a href="pdfs/Hary/bassoon 2.pdf" target="_blank">Bassoon 2</a>
-             </a></td>
-             <td height="62" align="left" valign="top"><p><a href="pdfs/Hary/horn 1.pdf" target="_blank">Horn 1<br>
-               </a><a href="pdfs/Hary/horn 2.pdf" target="_blank">Horn 2</a> <br>
-               <a href="pdfs/Hary/horn 3.pdf" target="_blank">Horn 3<br>
-               </a><a href="pdfs/Hary/horn 4.pdf" target="_blank">Horn 4</a> </a></p>
-               <p align="left"><a href="pdfs/Hary/trumpet 1.pdf" target="_blank">Trumpet 1<br>
-                 </a><a href="pdfs/Hary/trumpet 2.pdf" target="_blank">Trumpet 2</a><br>
-                 <a href="pdfs/Hary/trumpet 3.pdf" target="_blank">Trumpet 3</a><br>
 
-                 <a href="pdfs/Hary/cornet 1.pdf" target="_blank">Cornet 1<br>
-                 </a><a href="pdfs/Hary/cornet 2.pdf" target="_blank">Cornet 2</a><br>
-                 <a href="pdfs/Hary/cornet 3.pdf" target="_blank">Cornet 3</a>
-                 <a href="pdfs/Firebird/trumpets.pdf" target="_blank"> </a>
-               <p align="left"><a href="pdfs/Hary/trombone 1.pdf" target="_blank">Trombone 1</a><br>
-                 <a href="pdfs/Hary/trombone 2.pdf" target="_blank">Trombone 2</a><br>
-                 <a href="pdfs/Hary/trombone 3.pdf" target="_blank">Trombone 3</a><br>
-                 <a href="pdfs/Hary/tuba.pdf" target="_blank">Tuba</a>
-               <p align="left"><a href="pdfs/Hary/harp.pdf" target="_new">Harp</a><br>
-                 <br>
-                 <a href="pdfs/Hary/piano.pdf" target="_new">Piano</a><br>
+              </div>
+            </div>
+
+
+            <div class="row pad45">
+             <div class"col-md-12">
+               <h2>Kodaly: Hary Janos Suite</h2>
+             </div>
+            </div>
+            <div class="row pad30">
+              <div class="col-md-12">
+                <img style="height:130px" src="../img/general_illustration/kodaly.jpg" alt="Kodaly">
+              </div>
+            </div>
+            <div class="row pad30">
+              <div class="col-xs-12 col-md-2">
+                <img class="section-icon" src="/tyo/img/instrument_icons/violin.png" />
+
+                <div class="pieces">
+                  <a href="pdfs/Hary/Violin I.pdf" target="_blank">Violin 1</a></br>
+                  <a href="pdfs/Hary/Violin II.pdf" target="_blank" class="style3">Violin 2</a></br>
+                  <a href="pdfs/Hary/Viola.pdf" target="_blank" class="style3">Viola</a></br>
+                  <a href="pdfs/Hary/Cello.pdf" target="_blank" class="style3">Cello</a></br>
+                  <a href="pdfs/Hary/Bass.pdf" target="_blank" class="style3">Bass</a></br>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-2">
+                <img class="section-icon" src="/tyo/img/instrument_icons/flute.png" />
+
+                <div class="pieces">
+                  <a href="pdfs/Hary/flute 1.pdf" target="_blank">Flute 1</a><br>
+                  <a href="pdfs/Hary/flute 2.pdf" target="_blank">Flute 2</a><br>
+                  <a href="pdfs/Hary/flute 3.pdf" target="_blank">Flute 3</a><br>
+                  <a href="pdfs/Hary/oboe 1.pdf" target="_blank">Oboe 1</a><br>
+                  <a href="pdfs/Hary/oboe 2.pdf" target="_blank">Oboe 2</a><br>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-2">
+                <img class="section-icon" src="/tyo/img/instrument_icons/score.png" />
+
+                <div class="pieces">
+                  <a href="pdfs/Hary/clarinet 1.pdf" target="_blank">Clarinet 1</a><br>
+                  <a href="pdfs/Hary/clarinet 2.pdf" target="_blank">Clarinet 2</a><br>
+                  <a href="pdfs/Hary/bassoon 1.pdf" target="_blank">Bassoon 1</a><br>
+                  <a href="pdfs/Hary/bassoon 2.pdf" target="_blank">Bassoon 2</a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-2">
+                <img class="section-icon" src="/tyo/img/instrument_icons/trumpet.png" />
+
+                <div class="pieces">
+                  <a href="pdfs/Hary/horn 1.pdf" target="_blank">Horn 1</a><br>
+                  <a href="pdfs/Hary/horn 2.pdf" target="_blank">Horn 2</a><br>
+                  <a href="pdfs/Hary/horn 3.pdf" target="_blank">Horn 3</a><br>
+                  <a href="pdfs/Hary/horn 4.pdf" target="_blank">Horn 4</a><br>
+                  <a href="pdfs/Hary/trumpet 1.pdf" target="_blank">Trumpet 1</a><br>
+                  <a href="pdfs/Hary/trumpet 2.pdf" target="_blank">Trumpet 2</a><br>
+                  <a href="pdfs/Hary/trumpet 3.pdf" target="_blank">Trumpet 3</a><br>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-2">
+                <img class="section-icon" src="/tyo/img/instrument_icons/trombone.png" />
+
+                <div class="pieces">
+                  <a href="pdfs/Hary/cornet 1.pdf" target="_blank">Cornet 1</a><br>
+                  <a href="pdfs/Hary/cornet 2.pdf" target="_blank">Cornet 2</a><br>
+                  <a href="pdfs/Hary/cornet 3.pdf" target="_blank">Cornet 3</a><br>
+                  <a href="pdfs/Hary/trombone 1.pdf" target="_blank">Trombone 1</a><br>
+                  <a href="pdfs/Hary/trombone 2.pdf" target="_blank">Trombone 2</a><br>
+                  <a href="pdfs/Hary/trombone 3.pdf" target="_blank">Trombone 3</a><br>
+                  <a href="pdfs/Hary/tuba.pdf" target="_blank">Tuba</a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-2">
+                <img class="section-icon" src="/tyo/img/instrument_icons/harp.png" />
+
+                <div class="pieces">
+                  <a href="pdfs/Hary/harp.pdf" target="_new">Harp</a><br>
+                  <a href="pdfs/Hary/piano.pdf" target="_new">Piano</a><br>
                   <a href="pdfs/Hary/celesta.pdf" target="_new">Celesta</a><br>
-                   <a href="pdfs/Hary/cimbalom.pdf" target="_new">Cimbalom</a>
-               <p align="left"><a href="pdfs/Hary/timps.pdf" target="_new">Timps</a><br>
-                 <a href="pdfs/Hary/perc.pdf" target="_blank">Percussion</a>
-               <p align="left"><br>
+                  <a href="pdfs/Hary/cimbalom.pdf" target="_new">Cimbalom</a><br>
+                  <a href="pdfs/Hary/timps.pdf" target="_new">Timps</a><br>
+                  <a href="pdfs/Hary/perc.pdf" target="_blank">Percussion</a>
+                </div>
+              </div>
+            </div>
 
-             </td>
-           </tr>
-           <tr>
-             <td height="62" colspan="4" align="left" valign="middle"><h2>Dukas: The Sorcerer's Apprentice</h2></td>
-           </tr>
-           <tr>
-             <td height="62" align="left" valign="top"><p align="left" class="style3"><img src="images/general_illustration/Dukas.jpg" width="104" height="118" alt="Dukas"></p></td>
-             <td height="62" align="left" valign="top"><p align="left" class="style3"><a href="pdfs/Sorcerers/violin 1.pdf" target="_blank">Violin 1</a></p>
-               <p align="left" class="style2"><a href="pdfs/Sorcerers/violin 2.pdf" target="_blank" class="style3">Violin 2</a></p>
-               <p align="left" class="style2"><a href="pdfs/Sorcerers/viola.pdf" target="_blank" class="style3">Viola</a></p>
-               <p class="style2"><a href="pdfs/Sorcerers/cello.pdf" target="_blank" class="style3">Cello</a></p>
-             <p class="style2"><a href="pdfs/Sorcerers/bass.pdf" target="_blank" class="style3">Bass</a></p></td>
-             <td height="62" colspan="2" align="left" valign="top"><p>Wind, brass and percussion parts may be found at:</p>
-               <p><a href="http://imslp.org/wiki/L'apprenti_sorcier_(Dukas%2C_Paul)" target="_blank">http://imslp.org/wiki/L'apprenti_sorcier_(Dukas%2C_Paul)</a></p>
-               <p>(Scroll down the page to the 'Sheet Music' section and click on the 'Parts' tab.)<br>
-                 <br>
-             </p></td>
-           </tr>
-           <tr>
-             <td height="62" colspan="4" align="left" valign="middle"><h2>Ravel: Mother Goose Suite</h2></td>
-           </tr>
-           <tr>
-             <td height="62" align="left" valign="top"><p align="left" class="style3"><img src="images/general_illustration/ravel.jpg" width="104" height="138" alt="Ravel"></p></td>
-             <td height="62" align="left" valign="top"><p align="left" class="style3"><a href="pdfs/Mother Goose/violin 1.pdf" target="_blank">Violin 1</a></p>
-               <p align="left" class="style2"><a href="pdfs/Mother Goose/violin 2.pdf" target="_blank" class="style3">Violin 2</a></p>
-               <p align="left" class="style2"><a href="pdfs/Mother Goose/viola.pdf" target="_blank" class="style3">Viola</a></p>
-               <p class="style2"><a href="pdfs/Mother Goose/cello.pdf" target="_blank" class="style3">Cello</a></p>
-             <p class="style2"><a href="pdfs/Mother Goose/bass.pdf" target="_blank" class="style3">Bass</a></p></td>
-             <td height="62" colspan="2" align="left" valign="top"><p>Wind, brass and percussion parts may be found at:</p>
-               <p><a href="http://imslp.org/wiki/Ma_m%C3%A8re_l'Oye_(suite)_(Ravel%2C_Maurice)" target="_blank">http://imslp.org/wiki/Ma_m%C3%A8re_l'Oye_(suite)_(Ravel%2C_Maurice)</a></p>
-               <p>(Scroll down the page to the 'Sheet Music' section and click on the 'Arrangements and Transcriptions' tab.)</p>
-               <p><br>
-               </p>
-               <p>&nbsp;</p>            <p align="left"><br>
-   </td>
-           </tr>
-           <tr>
-             <td height="62" colspan="4" align="left" valign="middle"><h2>&nbsp;</h2></td>
-           </tr>
-           <tr>
-             <td height="62" align="left" valign="top"><p align="left" class="style3">&nbsp;</p></td>
-             <td height="62" align="left" valign="top"><p align="left" class="style3">&nbsp;</p></td>
-             <td height="62" align="left" valign="top">&nbsp;</td>
-             <td height="62" align="left" valign="top"><p align="left">
-             <p></td>
-           </tr>
-         </table>
-         <p align="left" class="style2">&nbsp;</p>
-         <p align="left" class="style2">&nbsp;</p>
-         <p align="left" class="style2">&nbsp;</p>
-         <p align="left" class="style2">&nbsp;</p>
-         <p align="left" class="style2">&nbsp;</p>
-         <p align="center" class="style2">&nbsp;</p>
-         <p align="center" class="style2">&nbsp;</p>
-         <p align="center" class="style2">&nbsp;</p>
-         <p align="left" class="style2">&nbsp;</p>
-         <p align="left" class="style2">&nbsp;</p>
-         <p align="left" class="style2">&nbsp;</p>
-         <p align="left" class="style2">&nbsp;</p>
-         <p align="left" class="style2">&nbsp;</p>
-         <p align="left" class="style2">&nbsp;</p>
-         <p align="center" class="style2">&nbsp;</p>
-         <p align="left" class="style2">&nbsp;</p>      <p align="left" class="style2">&nbsp;</p></td>
-     </tr>
-   </table>
+          </div>
 
 
           <!--FOOTER-->

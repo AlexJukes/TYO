@@ -7,26 +7,12 @@ function is_logged_in(){
 		echo json_encode(array('success' => true,));
 	} else {
 		if (isset($_COOKIE['authentication'], $_COOKIE['user'])) {
-			$db = new mysqli($servername,$username,$password,$dbname);
-			$userid = $_COOKIE['user'];
-			$token = hash("sha256", $_COOKIE['authentication']);
-			$stmt = $db->prepare("SELECT token FROM token WHERE userid = ? AND token = ? AND timeout > Now()");
-			$stmt->bind_param('is', $userid, $token);
-			$stmt->execute();
-			$stmt->store_result();
-			$stmt->bind_result($dbtoken);
-			if ($stmt->num_rows > 0) {
-				$stmt->close();
 				$_SESSION['LoggedIn'] = 1;
 				$_SESSION['UserId'] = $userid;
 				echo json_encode(array('success' => true,));
 			} else {
-				$stmt->close();
 				echo json_encode(array('success' => false,));
 			}
-		} else {
-			echo json_encode(array('success' => false,));
-		}
 	}
 }
 
