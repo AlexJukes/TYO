@@ -83,7 +83,7 @@ include("cookie.php");
 							</a>
               <ul class="dropdown-menu">
                 <li><a href="https://soundcloud.com/thamesyouthorchestra" target="blank">Audio Archive</a></li>
-                <li><a href="../ideos.html">Videos</a></li>
+                <li><a href="https://www.youtube.com/channel/UCBnPdEk2fDQTwo5un-ZBX6w" target="blank">Videos</a></li>
                 <li><a href="../gallery.html">Photos</a></li>
               </ul>
             </li>
@@ -137,7 +137,7 @@ include("cookie.php");
                 <img src="../img/general_illustration/Stravinsky.jpg" alt="Igor">
               </div>
             </div>
-            <div class="row pad30">
+            <div class="row pad45">
               <div class="col-xs-12 col-md-3">
                 <img class="section-icon" src="/tyo/img/instrument_icons/violin.png" />
                 <div class="pieces">
@@ -200,7 +200,7 @@ include("cookie.php");
                 <img style="height:130px" src="../img/general_illustration/kodaly.jpg" alt="Kodaly">
               </div>
             </div>
-            <div class="row pad30">
+            <div class="row pad45">
               <div class="col-xs-12 col-md-2">
                 <img class="section-icon" src="/tyo/img/instrument_icons/violin.png" />
 
@@ -280,19 +280,19 @@ include("cookie.php");
           <div class="center footer">
             <div class="social-icons">
               <span class="wow fadeIn" data-wow-offset="80" data-wow-duration="2s">
-					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="https://twitter.com/thamesyouthorch"><i class="fa fa-twitter"></i></a>
 				</span>
 
               <span class="wow fadeIn" data-wow-offset="80" data-wow-duration="2s" data-wow-delay="0.5s">
-					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="https://en-gb.facebook.com/TYOLondon/"><i class="fa fa-facebook"></i></a>
 				</span>
 
               <span class="wow fadeIn" data-wow-offset="80" data-wow-duration="2s" data-wow-delay="1s">
-					<a href="#"><i class="fa fa-youtube"></i></a>
+					<a href="https://www.youtube.com/channel/UCBnPdEk2fDQTwo5un-ZBX6w"><i class="fa fa-youtube"></i></a>
 				</span>
 
               <span class="wow fadeIn" data-wow-offset="80" data-wow-duration="2s" data-wow-delay="1.5s">
-					<a href="#"><i class="fa fa-linkedin"></i></a>
+
 				</span>
 
             </div>

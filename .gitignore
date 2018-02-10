@@ -1,4 +1,3 @@
-node_modules
-img
-videos
+/img
+/videos
 /php/var
