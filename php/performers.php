@@ -40,71 +40,9 @@ include("cookie.php");
 <body>
   <div id="load"></div>
 
-  <!--header-->
-  <header class="header">
-    <!--menu-->
-    <nav id="main_menu" class="navbar" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <!--toggle-->
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-				 <span class="icon-bar"></span>
-				 <span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-          <!--logo-->
-          <div class="logo">
-            <a href="../index.html"><img src="img/logo.png" alt="" /></a>
-          </div>
-        </div>
-        <div class="collapse navbar-collapse" id="menu">
-          <ul class="nav navbar-nav pull-right">
-            <li>
-              <a href="../index.html">Home</a>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000">
-								About Us
-							</a>
-              <ul class="dropdown-menu">
-                <li><a href="../about.html">About</a></li>
-                <li><a href="../meet_orchestra.html">Meet the Orchestra</a></li>
-                <li><a href="../staff.html">Meet the Staff</a></li>
-                <li><a href="../tour.html">Tour</a></li>
-                <li><a href="../chair.html">Sponsor a Chair</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="../join.html">Join</a>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000">
-								Media
-							</a>
-              <ul class="dropdown-menu">
-                <li><a href="https://soundcloud.com/thamesyouthorchestra" target="blank">Audio Archive</a></li>
-                <li><a href="https://www.youtube.com/channel/UCBnPdEk2fDQTwo5un-ZBX6w" target="blank">Videos</a></li>
-                <li><a href="../gallery.html">Photos</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000">
-								Members
-							</a>
-              <ul class="dropdown-menu">
-                <li><a href="performers.php">Performers' Area</a></li>
-
-              </ul>
-            </li>
-            <li>
-              <a href="../contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <!--//header-->
+  <!--header loaded from header.html -->
+  <div id="headerBanner"></div>
+  <!-- / header -->
 
   <!--TOP IMAGE-->
   <section id="intro-small-fixed">
@@ -324,6 +262,11 @@ include("cookie.php");
   <script src="../js/topeffect.js"></script>
   <script src="../js/owl.carousel.min.js"></script>
   <script src="../js/database_functions.js"></script>
+  <script>
+    $(function() {
+      $("#headerBanner").load("../header.html");
+    });
+  </script>
   <script>
     is_logged_in();
   </script>

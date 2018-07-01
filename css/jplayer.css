@@ -1,82 +1,79 @@
-#jp_container_1{
-	margin-top:10px;
+#jp_container_1 {
+  margin-top: 10px;
 }
 
-div.playlist-center{
-	width:80%;
-	margin:0 auto;
-	overflow:hidden;
-	min-height: 400px;
+div.playlist-center {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  min-height: 400px;
 }
 
-div.jplayer-playlist-wrapper{
-	width:430px;
-	float:left;
-	margin: 0 auto;
-	height:100%;
+div.jplayer-playlist-wrapper {
+  width: 430px;
+  float: left;
+  margin: 0 auto;
+  height: 100%;
 }
 
-div.jp-audio{
-	width: 430px;
-	overflow:hidden;
-	margin: 0 auto;
-	-webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+div.jp-audio {
+  width: 430px;
+  overflow: hidden;
+  margin: 0 auto;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 div.jp-interface {
-	position: relative;
-	border-radius:10px;
-	background-color: rgba(238,238,238,0.7);
-	width:100%;
-	height: 35px;
+  position: relative;
+  border-radius: 10px;
+  background-color: rgba(238, 238, 238, 0.7);
+  width: 100%;
+  height: 35px;
 }
 
 div.jp-controls-holder {
-    clear: both;
-    width:430px;
-    margin: 0 auto;
-    position: relative;
-    overflow:hidden;
+  clear: both;
+  width: 430px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
 }
 
 a {
-	outline:none;
+  outline: none;
 }
 
-a.jp-play,
-a.jp-pause,
-a.jp-previous,
-a.jp-next{
-    width:27px;
-    height:35px;
-    float:left;
-    text-indent:100%;
+a.jp-play, a.jp-pause, a.jp-previous, a.jp-next {
+  width: 27px;
+  height: 35px;
+  float: left;
+  text-indent: 100%;
+  margin-right: 10px;
 }
-
-
 
 a.jp-play {
-    background: url("../img/sprite.png") 0 0 no-repeat;
-}
- 
-a.jp-pause {
-    background: url("../img/sprite.png") -40px 0 no-repeat;
-    display: none;
+  background: url("../img/sprite.png") 0 0 no-repeat;
 }
 
-a.jp-next{
-	background: url("../img/sprite.png") -187px 0 no-repeat;
-	margin-right: 10px;
+a.jp-pause {
+  background: url("../img/sprite.png") -40px 0 no-repeat;
+  display: none;
+}
+
+a.jp-next {
+  background: url("../img/sprite.png") -187px 0 no-repeat;
+  margin-right: 10px;
 }
 
 a.jp-previous {
-	background: url("../img/sprite.png") -215px 0 no-repeat;
+  background: url("../img/sprite.png") -215px 0 no-repeat;
 }
+
 /*
 .separator {
     background-image:url("../img/separator.png");
@@ -89,212 +86,190 @@ a.jp-previous {
 }*/
 
 .jp-progress {
-    background: #706d6d;
- 
-    -webkit-border-radius:5px;
-    -moz-border-radius:5px;
-    border-radius:5px;
- 
-    -webkit-box-shadow:
-        inset 0px 1px 4px rgba(0,0,0,.4),
-        0px 1px 0px rgba(255,255,255,.4);
-    -moz-box-shadow:
-        inset 0px 1px 4px rgba(0,0,0,.4),
-        0px 1px 0px rgba(255,255,255,.4);
-    box-shadow:
-        inset 0px 1px 4px rgba(0,0,0,.4),
-        0px 1px 0px rgba(255,255,255,.4);
- 
-    width:150px;
-    height:10px;
-    float:left;
-    margin-top: 13px;
+  background: #706d6d;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0px 1px 4px rgba(0, 0, 0, .4), 0px 1px 0px rgba(255, 255, 255, .4);
+  -moz-box-shadow: inset 0px 1px 4px rgba(0, 0, 0, .4), 0px 1px 0px rgba(255, 255, 255, .4);
+  box-shadow: inset 0px 1px 4px rgba(0, 0, 0, .4), 0px 1px 0px rgba(255, 255, 255, .4);
+  width: 150px;
+  height: 10px;
+  float: left;
+  margin-top: 13px;
 }
- 
+
 .jp-seek-bar {
-    width:0px;
-    height:100%;
-    cursor: pointer;
+  width: 0px;
+  height: 100%;
+  cursor: pointer;
 }
- 
+
 .jp-seeking-bg {
-    background:#575555;
-    -webkit-border-radius:5px;
-    -moz-border-radius:5px;
-    border-radius:5px;
+  background: #575555;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 .jp-play-bar {
-    background: url("../img/play-bar.png")  left repeat-x;
-    width:0px;
-    height:10px;
-    position:relative;
-    z-index: 9999;
-     
-    -webkit-border-radius:5px;
-    -moz-border-radius:5px;
-    border-radius:5px;
+  background: url("../img/play-bar.png") left repeat-x;
+  width: 0px;
+  height: 10px;
+  position: relative;
+  z-index: 9999;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 .jp-play-bar span {
-    position:absolute;
-    top: -3px;
-    right: -12px;
-    background:url("../img/handle.png") no-repeat center;
-    width: 16px;
-    height: 17px;
+  position: absolute;
+  top: -3px;
+  right: -12px;
+  background: url("../img/handle.png") no-repeat center;
+  width: 16px;
+  height: 17px;
 }
 
-.jp-current-time,
-.jp-duration {
-    font-size:11px;
-    font-family:Arial;
-    color:#444444;
-    margin-top: 6px;
-    float:left;
+.jp-current-time, .jp-duration {
+  font-size: 11px;
+  font-family: Arial;
+  color: #444444;
+  margin-top: 6px;
+  float: left;
 }
+
 .jp-current-time {
-    float: left;
-    display:inline;
+  float: left;
+  display: inline;
 }
+
 .jp-duration {
-    float: left;
-    display:inline;
-    text-align: right;
+  float: left;
+  display: inline;
+  text-align: right;
 }
+
 .jp-audio .jp-current-time {
-    margin-left:10px;
+  margin-left: 10px;
 }
+
 .jp-audio .jp-duration {
-    margin-right:10px;
+  margin-right: 10px;
 }
+
 .time-sep {
-    float:left;
-    margin: 6px 3px 0 3px;
- 
-    font-size:11px;
-    font-family:Arial;
-	color:#444444;
+  float: left;
+  margin: 6px 3px 0 3px;
+  font-size: 11px;
+  font-family: Arial;
+  color: #444444;
 }
-  
- .jp-audio a.jp-mute,
-.jp-audio a.jp-unmute {
-    text-indent:100%;
-    float:left;
-     
-    height: 35px;
-    outline:none;
+
+.jp-audio a.jp-mute, .jp-audio a.jp-unmute {
+  text-indent: 100%;
+  float: left;
+  height: 35px;
+  outline: none;
 }
- 
+
 .jp-mute {
-    float:left;
-    background: url(../img/sprite.png) -80px 0 no-repeat;
-    margin-top: 1px;
-    margin-left: -10px;
-    width: 35px;
+  float: left;
+  background: url(../img/sprite.png) -80px 0 no-repeat;
+  margin-top: 1px;
+  margin-left: -10px;
+  width: 35px;
 }
- 
+
 a.jp-unmute {
-    background: url(../img/sprite.png) -115px 0 no-repeat;
-    margin-top: 1px;
-    margin-left: -13px;
-    display: none;
-    width: 38px;
+  background: url(../img/sprite.png) -115px 0 no-repeat;
+  margin-top: 1px;
+  margin-left: -13px;
+  display: none;
+  width: 38px;
 }
- 
+
 .jp-volume-bar {
-    float:left;
-    margin-top: 13px;
-    margin-right: 10px;
-    overflow:hidden;
-    width:60px;
-    height:10px;
-    cursor: pointer;
-    background: #706d6d;
-    -webkit-border-radius:5px;
-    -moz-border-radius:5px;
-    border-radius:5px;
-    -webkit-box-shadow:
-        inset 0px 1px 4px rgba(0,0,0,.4),
-        0px 1px 0px rgba(255,255,255,.4);
-    -moz-box-shadow:
-        inset 0px 1px 4px rgba(0,0,0,.4),
-        0px 1px 0px rgba(255,255,255,.4);
-    box-shadow:
-        inset 0px 1px 4px rgba(0,0,0,.4),
-        0px 1px 0px rgba(255,255,255,.4);
+  float: left;
+  margin-top: 13px;
+  margin-right: 10px;
+  overflow: hidden;
+  width: 60px;
+  height: 10px;
+  cursor: pointer;
+  background: #706d6d;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0px 1px 4px rgba(0, 0, 0, .4), 0px 1px 0px rgba(255, 255, 255, .4);
+  -moz-box-shadow: inset 0px 1px 4px rgba(0, 0, 0, .4), 0px 1px 0px rgba(255, 255, 255, .4);
+  box-shadow: inset 0px 1px 4px rgba(0, 0, 0, .4), 0px 1px 0px rgba(255, 255, 255, .4);
 }
- 
+
 .jp-volume-bar-value {
-    background: transparent;
-    width:0px;
-    height:10px;
-    position: relative;
+  background: transparent;
+  width: 0px;
+  height: 10px;
+  position: relative;
 }
- 
+
 .jp-volume-bar-value span {
-    position:absolute;
-    top: 0px;
-    right: 0px;
-    background: url(../img/volume.png) no-repeat center;
-    width: 11px;
-    height: 10px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: url(../img/volume.png) no-repeat center;
+  width: 11px;
+  height: 10px;
 }
 
 .jp-playlist ul {
-	list-style-type:none;	
-	margin: 10px 0 0 0;
-	padding: 5px 20px 5px 20px;
-	border-radius:10px;
-	background-color: rgba(238,238,238,0.7);
-	font-size:.8em;
+  list-style-type: none;
+  margin: 10px 0 0 0;
+  padding: 5px 20px 5px 20px;
+  border-radius: 10px;
+  background-color: rgba(238, 238, 238, 0.7);
+  font-size: .8em;
 }
 
 .jp-playlist li {
-	position: relative;
-	padding: 2px 0;
-	border-top:1px solid #d4d4d4;
-	overflow: hidden;
+  position: relative;
+  padding: 2px 0;
+  border-top: 1px solid #d4d4d4;
+  overflow: hidden;
 }
 
 /* Note that the first-child (IE6) and last-child (IE6/7/8) selectors do not work on IE */
 
 div.jp-type-playlist div.jp-playlist li:first-child {
-	border-top:none;
+  border-top: none;
 }
 
 div.jp-type-playlist div.jp-playlist li:last-child {
-	border-bottom:none;
+  border-bottom: none;
 }
 
-div.jp-type-playlist div.jp-playlist a {
+div.jp-type-playlist div.jp-playlist a {}
 
-}
-
-div.jp-type-playlist div.jp-playlist a:hover {
-
-}
+div.jp-type-playlist div.jp-playlist a:hover {}
 
 div.jp-type-playlist div.jp-playlist li.jp-playlist-current {
-	background-color: #d4d4d4;
-	margin-right: -5px;
-	margin-bottom: -1px;
-	margin-left: -10px;
-	padding: 0px 5px 1px 10px;
-	border-radius:7px;
+  background-color: #d4d4d4;
+  margin-right: -5px;
+  margin-bottom: -1px;
+  margin-left: -10px;
+  padding: 0px 5px 1px 10px;
+  border-radius: 7px;
 }
 
-div.jp-type-playlist div.jp-playlist li.jp-playlist-current a{
-
-}
+div.jp-type-playlist div.jp-playlist li.jp-playlist-current a {}
 
 div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove {
-	float:right;
-	display:inline;
-	text-align:right;
-	margin-right:10px;
-	font-weight:bold;
+  float: right;
+  display: inline;
+  text-align: right;
+  margin-right: 10px;
+  font-weight: bold;
 }
-div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove:hover {
 
-}
+div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove:hover {}
