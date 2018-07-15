@@ -1,5 +1,6 @@
 <?php
-	require_once('login_functions.php');
+  require_once('login_functions.php');
+  require_once('./plugin/php/random_compat/lib/random.php');
 	session_start();
 	include('./var/www/tyo_config.php');
 	$username = isset($_POST['username1']) ? $_POST['username1'] : '';
@@ -17,7 +18,7 @@
 	}
 
   if ($username == $login_name && $password == $login_password) {
-    $newtoken = openssl_random_pseudo_bytes(64);
+    $newtoken = bin2hex(random_bytes(64));
     $hashedtoken = hash("sha256", $newtoken);
     ChromePhp::log($newtoken);
     ChromePhp::log($hashedtoken);
