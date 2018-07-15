@@ -1,9 +1,4 @@
 <?php
-/*
-$servername = "localhost";
-$username = "tyo_user";
-$password = "Tigger10";
-$dbname = "tyo";*/
 include('/var/www/tyo_config.php');
 $concertid = $_GET['id'];
 $array = array();

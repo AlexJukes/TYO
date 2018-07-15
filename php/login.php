@@ -1,4 +1,4 @@
-<?php
+	<?php
 	session_start();
 	include('./var/www/tyo_config.php');
 	include('password_hash.php');
@@ -12,7 +12,7 @@
 		printf("Error loading character set utf8: %s\n", $db->error);
 	}
 
-	if ($_SESSION['LoggedIn'] == 1) {
+	if (isset($_SESSION['LoggedIn']) && $_SESSION['LoggedIn'] == 1) {
 		ChromePhp::log("Logged In By Session");
 	} else {
 		if (isset($_COOKIE['authentication'], $_COOKIE['user'])) {

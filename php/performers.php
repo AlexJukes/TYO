@@ -1,4 +1,4 @@
- <?
+ <?php
 /* Include Files *********************/
 ini_set("session.save_handler", "files");
 include("login.php");
