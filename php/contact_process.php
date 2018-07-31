@@ -1,7 +1,6 @@
 <?php
-
-include dirname(dirname(__FILE__)).'php/mail.php';
-
+// include dirname(dirname(__FILE__)).'php/mail.php';
+include('mail.php');
 error_reporting (E_ALL ^ E_NOTICE);
 
 $post = (!empty($_POST)) ? true : false;
