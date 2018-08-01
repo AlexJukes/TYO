@@ -1,7 +1,7 @@
 jQuery(document).ready(function($){
 	//set your google maps parameters - you can use http://itouchmap.com/latlong.html to find the latitude & longitude for your address
-	var latitude = 51.424905,
-		longitude = -0.302811,
+	var latitude = 51.428857,
+		longitude = -0.268613,
 		map_zoom = 15;
 
 	//google map custom marker icon - .png fallback for IE11

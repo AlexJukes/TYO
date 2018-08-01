@@ -8,7 +8,7 @@ $(document).ready(function(){
 			$('input[type="text"],input[type="password"]').css("box-shadow","0 0 3px red");
 			alert("Please fill all fields...!!!!!!");
 		}else {
-			$.post("/tyo/php/simple_login.php",{ username1: username, password1: password},
+			$.post("/php/simple_login.php",{ username1: username, password1: password},
 			function(data) {
 				if(data=='Invalid Username') {
 					$('input[type="text"]').css({"border":"2px solid red","box-shadow":"0 0 3px red"});

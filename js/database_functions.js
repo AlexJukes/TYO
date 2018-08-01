@@ -1,14 +1,14 @@
 function is_logged_in(){
 	$.ajax({
-			url: '/tyo/php/ajax_action.php',
+			url: '/php/ajax_action.php',
 			data: {action: 'is_logged_in'},
 			type: 'post',
-			dataType: 'json', 
+			dataType: 'json',
 			async: true,
 			cache: false,
 			success: function(response) {
 				if (!response.success) {
-					window.location.replace("/tyo/login.html");
+					window.location.replace("/login.html");
 				}
 			},
 			error: function(error) {

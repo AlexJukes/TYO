@@ -1,4 +1,10 @@
+<script>
+  // ensure links work locally and on live site
+  $('body').append(`<base href="http://${location.hostname}" />`)
+</script>
+
 <!--header-->
+
 <header class="header">
   <!--menu-->
   <nav id="main_menu" class="navbar" role="navigation">
@@ -18,7 +24,7 @@
       <div class="collapse navbar-collapse" id="menu">
         <ul class="nav navbar-nav pull-right">
           <li>
-            <a href="index.html">Home</a>
+            <a href="./index.html">Home</a>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000">

@@ -1,6 +1,6 @@
 <?php
   require_once('login_functions.php');
-  require_once('./plugin/php/random_compat/lib/random.php');
+  require_once('../plugin/php/random_compat-2.0.17/lib/random.php');
 	session_start();
 	include('./var/www/tyo_config.php');
 	$username = isset($_POST['username1']) ? $_POST['username1'] : '';
